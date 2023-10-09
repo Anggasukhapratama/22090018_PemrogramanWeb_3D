@@ -1,0 +1,131 @@
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'open sans',sans-serif;
+}
+.wrapper{
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+.logo a {
+    font-size: 50px;
+    font-weight: 800;
+    float: left;
+    font-family: Courier;
+    color: darkslategray;
+}
+
+.menu {
+    float: right
+
+}
+nav{
+    width:  100%;
+    max-resolution: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background-color: white;
+    z-index: 1;
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+nav ul li {
+    float: left; z
+
+}
+
+nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+
+}
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.gambardokter{
+    margin-left: 80px;
+    margin-bottom: 80px;
+}
+section{
+    margin: auto;
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.kolom {
+    margin-top: 150px;
+    margin-bottom: auto;
+    margin-left: 170px;
+}
+
+.kolom .deskripsi {
+    text-align: justify;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'comic sans ms';
+    color: darkslategrey
+    
+}
+
+h2 {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: darkslategray;
+    width: 100%;
+    line-height: 50px;
+}
+a.tbl-biru{
+    background: rgb(47, 150, 247);
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-top: 20;
+    padding: 15px 20px 15px 20px;
+    color: aliceblue;
+    cursor: pointer;
+    font-weight: bold;
+
+}
+
+a.tbl-biru:hover{
+    background-color: blue;
+    text-decoration: none;
+}
+a.tbl-pink{
+    background-color: deeppink;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: aliceblue;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+p {
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+}
+a.tbl-pink:hover{
+    background-color: rgb(173, 54, 252);
+    text-decoration: none;
+}
